@@ -6,9 +6,9 @@ computer =random.randint(1,100)
 print("Guess the computer number between (1-100)")
 # yournumber=int(input("enter your number"))
 # print(f"computer number ={computer}")
-
+n=100
 count =0
-for i in range(1,100+1):
+for i in range(1,n+1):
     yournumber=int(input("Enter your number : "))
 
     if(yournumber >computer):
